@@ -33,14 +33,3 @@ jobs:
           path: target/surefire-reports/*.xml # Ruta para guardar los informes
           reporter: java-junit
           fail-on-error: true # Si hay error marcar como tarea fallida.
-Haz commit. Si accedes a la pestaña "Actions" podrás comprobar que se ha ejecutado el script, así como su resultado.
-
-Haz push y comprueba que se ejecuta la acción.
-
-A continuación vamos a añadir otra tarea a la acción para que, si pasan los tests, se genere el archivo.jar para los usuarios de nuestra calculadora.
-
-Modificaremos el pom.xml para indicar el ID de grupo y de artefacto (debe ir todo en minúsculas), así como indicar un número de versión:
-
-    <groupId>dam.ed</groupId>
-    <artifactId>calculadora</artifactId>
-    <version>1.1</version>
