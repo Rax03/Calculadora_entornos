@@ -1,4 +1,6 @@
-package dam.ed;public class Calculadora {
+package dam.ed;
+
+public class Calculadora {
 
     double suma(double a, double b) {
         return a + b;
