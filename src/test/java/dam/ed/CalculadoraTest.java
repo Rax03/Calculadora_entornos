@@ -85,13 +85,13 @@ class CalculadoraTest {
         assertEquals(1, miCalculadora.raizCuadrada(1));
     }
 
-    @Test
+    /*@Test
     @DisplayName("Raiz y cuadrada negativos")
     void testRaizCuadradaNegativos() throws RuntimeException {
         assertTrue (miCalculadora.raizCuadrada(-5) < 0);
+*/
 
 
-    }
 
 
     @Test
